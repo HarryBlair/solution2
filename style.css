@@ -2,13 +2,21 @@ h1 {
   text-align: center;
   text-size: 160%;
 }
+
 * { 
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+p {
+  border: 3px black;
+  background-color: grey;
+}
+
 @media (min-width: 992px) {
   #p1 {
+    float: left;
     position: relative;
     width: 33%;
     height: 200px;
@@ -23,6 +31,7 @@ h1 {
     padding: 2%;
   }
  #p3 {
+    float: right;
     position: relative;
     width: 33%;
     height: 200px;
@@ -32,16 +41,19 @@ h1 {
 }
 @media (min-width: 769px) and (max-width: 991px) {
   #p1 {
+    float: left;
     width: 50%;
     margin: 2%;
     padding: 2%;
   }
   #p2 {
+    float: right
     width: 50%;
     margin: 2%;
     padding: 2%;
   }
   #p3 {
+    float: left;
     clear: both;
     width: 100%;
     margin: 2%;
