@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+  text-size: 160%;
+}
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+media (min-width: 992px) {
+  #p1 {
+    position: relative;
+    width: 33%;
+    height: 200px;
+    margin: 2%;
+    padding: 2%;
+  }
+  #p2 {
+    position: relative;
+    width: 33%;
+    height: 200px;
+    margin: 2%;
+    padding: 2%;
+  }
+ #p3 {
+    position: relative;
+    width: 33%;
+    height: 200px;
+    margin: 2%;
+    padding: 2%;
+  }
+}
+media (min-width: 769px) and (max-width: 991px) {
+  #p1 {
+    width: 50%;
+    margin: 2%;
+    padding: 2%;
+  }
+  #p2 {
+    width: 50%;
+    margin: 2%;
+    padding: 2%;
+  }
+  #p3 {
+    clear: both;
+    width: 100%;
+    margin: 2%;
+    padding: 2%;
+  }
+}
+media (max-width: 767px) {
+  #p1 {
+    clear: both;
+    width: 100%;
+    margin: 5%;
+    padding: 5%;
+  }
+  #p2 {
+    clear: both;
+    width: 100%;
+    margin: 5%;
+    padding: 5%;
+  }
+  #p3 {
+    clear: both;
+    width: 100%;
+    margin: 5%;
+    padding: 5%;
+  }
+}
