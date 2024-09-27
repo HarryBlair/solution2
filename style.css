@@ -3,80 +3,14 @@ h1 {
   text-size: 160%;
 }
 
-* { 
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 
-p {
-  border: 3px black;
-  background-color: grey;
-}
-
-@media (min-width: 992px) {
-  #p1 {
-    float: left;
-    position: relative;
-    width: 33%;
-    height: 200px;
-    margin: 2%;
-    padding: 2%;
-  }
-  #p2 {
-    position: relative;
-    width: 33%;
-    height: 200px;
-    margin: 2%;
-    padding: 2%;
-  }
- #p3 {
-    float: right;
-    position: relative;
-    width: 33%;
-    height: 200px;
-    margin: 2%;
-    padding: 2%;
-  }
-}
-@media (min-width: 769px) and (max-width: 991px) {
-  #p1 {
-    float: left;
-    width: 50%;
-    margin: 2%;
-    padding: 2%;
-  }
-  #p2 {
-    float: right
-    width: 50%;
-    margin: 2%;
-    padding: 2%;
-  }
-  #p3 {
-    float: left;
-    clear: both;
-    width: 100%;
-    margin: 2%;
-    padding: 2%;
-  }
-}
-@media (max-width: 767px) {
-  #p1 {
-    clear: both;
-    width: 100%;
-    margin: 5%;
-    padding: 5%;
-  }
-  #p2 {
-    clear: both;
-    width: 100%;
-    margin: 5%;
-    padding: 5%;
-  }
-  #p3 {
-    clear: both;
-    width: 100%;
-    margin: 5%;
-    padding: 5%;
-  }
+.box {
+  width: 33%;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
 }
